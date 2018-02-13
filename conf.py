@@ -133,15 +133,17 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "News"),
-        ("/ueber-uns", "Über uns"),
+        ("/", "Neuigkeiten"),
+        ("/kollektiv", "Das Kollektiv"),
+        ("/mitglieder", "Mitglieder"),
         ("/projekte", "Projekte"),
         ("/impressum", "Impressum"),
     ),
 
     "en": (
         ("/en/", "News"),
-        ("/about", "About"),
+        ("/collective", "The collective"),
+        ("/members", "Members"),
         ("/projects", "Projects"),
         ("/imprint", "Imprint"),
     ),
@@ -997,6 +999,8 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
 #COMMENT_SYSTEM = "isso"
+# disable for now
+COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
