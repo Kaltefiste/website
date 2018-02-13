@@ -25,8 +25,9 @@ SITE_URL = "https://kaltefiste.net/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://kaltefiste.net/"
+BASE_URL = "/"
 BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "Webseite des Kaltefiste Kollektivs."  # (translatable)
+BLOG_DESCRIPTION = {"de": "Webseite des Kaltefiste Kollektivs.", "en": "Website of the Kaltefiste collective."}  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -92,7 +93,7 @@ DEFAULT_LANG = "de"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "./" + DEFAULT_LANG,
     "en": "./en",
 }
 
@@ -133,19 +134,19 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "Neuigkeiten"),
-        ("/kollektiv", "Das Kollektiv"),
-        ("/mitglieder", "Mitglieder"),
-        ("/projekte", "Projekte"),
-        ("/impressum", "Impressum"),
+        ("/de/neuigkeiten/", "Neuigkeiten"),
+        ("/de/kollektiv/", "Das Kollektiv"),
+        ("/de/mitglieder/", "Mitglieder"),
+        ("/de/projekte/", "Projekte"),
+        ("/de/impressum/", "Impressum"),
     ),
 
     "en": (
-        ("/en/", "News"),
-        ("/collective", "The collective"),
-        ("/members", "Members"),
-        ("/projects", "Projects"),
-        ("/imprint", "Imprint"),
+        ("/en/news/", "News"),
+        ("/en/collective/", "The collective"),
+        ("/en/members/", "Members"),
+        ("/en/projects/", "Projects"),
+        ("/en/imprint/", "Imprint"),
     ),
 }
 
@@ -191,16 +192,16 @@ THEME_COLOR = '#5670d4'
 #     )
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", {"de": "neuigkeiten", "en": "news"}, "post.tmpl"),
+    ("posts/*.md", {"de": "neuigkeiten", "en": "news"}, "post.tmpl"),
+    ("posts/*.txt", {"de": "neuigkeiten", "en": "news"}, "post.tmpl"),
+    ("posts/*.html", {"de": "neuigkeiten", "en": "news"}, "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "", "page.tmpl"),
+    ("pages/*.md", "", "page.tmpl"),
+    ("pages/*.txt", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
 )
 
 
@@ -558,7 +559,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = ""
+INDEX_PATH = {"de": "neuigkeiten", "en": "news"}
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -567,16 +568,16 @@ FRONT_INDEX_HEADER = {
 }
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
-# CREATE_FULL_ARCHIVES = False
+CREATE_FULL_ARCHIVES = False
 # If monthly archives or full archives are created, adds also one archive per day
 # CREATE_DAILY_ARCHIVE = False
 # Create previous, up, next navigation links for archives
-# CREATE_ARCHIVE_NAVIGATION = False
+CREATE_ARCHIVE_NAVIGATION = True
 # Final locations for the archives are:
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
@@ -588,7 +589,7 @@ FRONT_INDEX_HEADER = {
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
 # list of links.
-# ARCHIVES_ARE_INDEXES = False
+ARCHIVES_ARE_INDEXES = False
 
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
@@ -613,11 +614,11 @@ USE_BASE_TAG = False
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_TAG_PATH = True
+SLUG_TAG_PATH = True
 
 # Slug the Author URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_AUTHOR_PATH = True
+SLUG_AUTHOR_PATH = True
 
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
@@ -626,7 +627,9 @@ USE_BASE_TAG = False
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = []
+REDIRECTIONS = [
+    ("/index.html", "/de/")
+]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
