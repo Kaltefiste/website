@@ -1,0 +1,43 @@
+www.kaltefiste.net {
+  redir https://kaltefiste.net{uri}
+}
+
+kaltefiste.net {
+  root /var/www/kf/web/
+  gzip
+
+  # Isso Comments
+#  proxy /isso 127.0.0.1:9001 {
+#    without /isso
+#    transparent
+#    header_upstream X-Script-Name /isso
+#  }
+
+  log /var/www/kf/log/access.log {
+    rotate_size 100
+    rotate_age 96
+    rotate_keep 10
+    rotate_compress
+  }
+
+  errors /var/www/kf/log/error.log {
+    rotate_size 100
+    rotate_age 96
+    rotate_keep 10
+    rotate_compress
+  }
+
+  # Redir to specific language
+  redir 302 {
+    if {>Accept-Language} has de-DE
+    if_op and
+    if {uri} is /
+    / /de/
+  }
+  redir 302 {
+    if {>Accept-Language} not_has de-DE
+    if_op and
+    if {uri} is /
+    / /en/
+  }
+}
