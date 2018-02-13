@@ -5,5 +5,5 @@ cache
 output
 .doit.db
 .doit.db.db
+state_data.json
 .venv
-
