@@ -4,9 +4,17 @@ The static website is built using [Nikola](https://getnikola.com/) and served by
 
 ## edit
 
+Before you start editing, get the latest changes from Github.
+
+```
+git pull
+```
+
 Use your favorite text editor to edit the content in `pages/` and `posts/`.
 
 Use `nikola new_post --format=markdown` to create a new post or `nikola new_page --format=markdown` for a new page. You can also just create a new file with your editor and copy the metadata at the top from another one.
+
+Remember to create also an english version with added "en" like `neuer-artikel.en.md`.
 
 ## build
 
@@ -44,3 +52,5 @@ git add README.md
 git commit -m "add README"
 git push
 ```
+
+To push your changes, you need commit rights on Github. If you don't have them and still want to contribute, fork the repository on Github and create a Pull-Request.
