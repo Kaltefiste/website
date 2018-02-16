@@ -12,10 +12,10 @@
 
 Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:
 
-  David Kleuker
-  Holsten-Mündruper-Str. 4
-  49086 Osnabrück
-  E-Mail: post at davidak.de
+David Kleuker  
+Holsten-Mündruper-Str. 4  
+49086 Osnabrück  
+E-Mail: post at davidak.de
 
 Sämtliche Beiträge auf **kaltefiste.net** dienen sowohl der Unterhaltung als auch der Information.
 Die Kommentare zu den Beiträgen sollen zur Diskussion anregen und stellen ausdrücklich nur die subjektive Meinung des jeweiligen Verfassers dar. Wir behalten uns das Recht vor, Kommentare kommentarlos zu löschen.
