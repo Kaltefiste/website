@@ -2,6 +2,17 @@
 
 The static website is built using [Nikola](https://getnikola.com/) and served by [Caddy](https://caddyserver.com/).
 
+## dependencies
+
+- [Nikola](https://getnikola.com/)
+- [micawber](https://github.com/coleifer/micawber)
+
+Get interactive shell with the dependencies present using [Nix](https://nixos.org/nix/):
+
+```
+nix run '((import <nixpkgs> {}).python3.withPackages (ps: with ps; [Nikola micawber]))'
+```
+
 ## edit
 
 Before you start editing, get the latest changes from Github.
