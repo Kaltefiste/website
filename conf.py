@@ -149,7 +149,11 @@ NAVIGATION_LINKS = {
         ("/en/news/", "News"),
         ("/en/collective/", "The collective"),
         ("/en/members/", "Members"),
-        ("/en/projects/", "Projects"),
+        (
+            (
+                ("/en/projects/knecht-im-schacht", "Knecht im Schacht"),
+            ), "Projects"
+        ),
         ("/en/imprint/", "Imprint"),
     ),
 }
