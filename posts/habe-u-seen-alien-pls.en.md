@@ -11,6 +11,4 @@
 
 {{% media url="https://www.youtube.com/watch?v=j6NKgu_sgtg" %}}
 
-(video in english)
-
 Inspired by [FilthyFrank](https://www.youtube.com/watch?v=EtxBvU21J28).
