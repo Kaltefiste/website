@@ -1303,7 +1303,7 @@ COPY_SOURCES = False
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
@@ -1417,3 +1417,7 @@ BODY_END = """
 <noscript><p><img src="//stats.davidak.de/piwik.php?idsite=13&rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 """
+
+# After v8 migration
+USE_TAG_METADATA = False
+WARN_ABOUT_TAG_METADATA = False
