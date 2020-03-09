@@ -1,7 +1,7 @@
 <!--
 .. title: GameDev Update
 .. slug: gamedev-update
-.. date: 2018-04-01 14:36:54 UTC+02:00
+.. date: 2018-02-11 14:00:00 UTC+02:00
 .. tags:
 .. category: gamedev
 .. link:
