@@ -10,8 +10,10 @@ The static website is built using [Nikola](https://getnikola.com/) and served by
 Get interactive shell with the dependencies present using [Nix](https://nixos.org/nix/):
 
 ```
-nix run '((import <nixpkgs> {}).python3.withPackages (ps: with ps; [Nikola micawber]))'
+nix-shell
 ```
+
+The Nikola version is pinned, so it should always work with the current state of the website.
 
 ## edit
 
@@ -64,4 +66,4 @@ git commit -m "add README"
 git push
 ```
 
-To push your changes, you need commit rights on Github. If you don't have them and still want to contribute, fork the repository on Github and create a Pull-Request.
+To push your changes, you need commit rights on Github. If you don't have them and still want to contribute, fork the repository on Github and create a Pull-Request by pushing your branch.
