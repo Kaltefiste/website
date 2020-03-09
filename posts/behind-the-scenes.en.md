@@ -11,4 +11,6 @@
 
 {{% media url="https://www.youtube.com/watch?v=VGai33TFCJc" %}}
 
-Ein Blick hinter das Studio von Kaltefiste.
+(video in german)
+
+A look behind the studio of Kaltefiste.

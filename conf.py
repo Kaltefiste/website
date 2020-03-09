@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Kaltefiste Kollektiv"  # (translatable)
+BLOG_AUTHOR = {"de": "Kaltefiste Kollektiv", "en": "Kaltefiste collective"}  # (translatable)
 BLOG_TITLE = "Kaltefiste"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!

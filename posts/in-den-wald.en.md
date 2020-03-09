@@ -11,6 +11,6 @@
 
 {{% media url="https://www.youtube.com/watch?v=QlfiUv_VsEY" %}}
 
-The title means "Into the forest".
+The title means "Into the forest". Video is in german.
 
 Filmed on miniDV.

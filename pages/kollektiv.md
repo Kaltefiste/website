@@ -9,6 +9,6 @@
 .. type: text
 -->
 
-Kaltefiste ist ein Künstler-Kollektiv, deren Mitglieder ihre Freiheit durch experimentelle Werke ausdrücken möchten.
+Kaltefiste ist ein Künstler-Kollektiv, das seinen Mitgliedern einen Freiraum schaffen soll, um ihre künstlerische Freiheit auszuleben.
 
-Es wurde 2014 von den beiden Video-Künstlern davidak und Tretboot gegründet. Die ersten Werke wurden im Oktober 2015 veröffentlicht.
+Es wurde 2014 von den beiden Video-Künstlern und Freunden Knochte und Knochtensplocht gegründet. Die ersten Werke wurden im Oktober 2015 veröffentlicht.

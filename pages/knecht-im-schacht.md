@@ -11,4 +11,4 @@
 
 Knecht im Schacht ist das erste Computerspiel der Knecht-Reihe. Es befindet sich derzeit noch in Entwicklung.
 
-Es wird auf [Github](https://github.com/Kaltefiste/knecht-im-schacht) als Open Source-Software entwickelt.
+Es wird auf [Github](https://github.com/Kaltefiste/knecht-im-schacht) als Freie Software entwickelt.

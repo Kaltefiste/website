@@ -1,5 +1,5 @@
 <!--
-.. title:  Veganer isst ganzen Salatkopf zum Frühstück (ASMR Video)
+.. title: Veganer isst ganzen Salatkopf zum Frühstück (ASMR Video)
 .. slug: veganer-isst-ganzen-salatkopf-zum-fruehstueck
 .. date: 2016-03-16 20:00:00 UTC+01:00
 .. tags:

@@ -1,6 +1,6 @@
 <!--
-.. title:  Everybody Rolls
-.. slug:  everybody-rolls
+.. title: Everybody Rolls
+.. slug: everybody-rolls
 .. date: 2016-02-12 20:00:00 UTC+01:00
 .. tags:
 .. category: video

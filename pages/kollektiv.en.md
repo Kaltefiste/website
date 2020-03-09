@@ -9,6 +9,6 @@
 .. type: text
 -->
 
-Kaltefiste is an artist collective which members express their freedom in experimental artworks.
+Kaltefiste is an artist collective that aims to create a space for its members to live out their artistic freedom.
 
-It was founded in 2014 by the video artists davidak and Tretboot. The first artworks where published in October 2015.
+It was founded in 2014 by the video artists and friends Knochte and Knochtensplocht. The first artworks where published in October 2015.
