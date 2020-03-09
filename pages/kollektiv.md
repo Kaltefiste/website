@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. nocomments: True
 -->
 
 Kaltefiste ist ein Künstler-Kollektiv, das seinen Mitgliedern einen Freiraum schaffen soll, um ihre künstlerische Freiheit auszuleben.

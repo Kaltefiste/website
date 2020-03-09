@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. nocomments: True
 -->
 
 Knecht im Schacht ist das erste Computerspiel der Knecht-Reihe. Es befindet sich derzeit noch in Entwicklung.

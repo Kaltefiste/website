@@ -7,6 +7,19 @@
 .. link:
 .. description:
 .. type: text
+.. nocomments: True
 -->
 
-This page is still in work.
+Some members wish to remain anonymous. Others are active under several stage names. We also work with external artists on some projects. We also use freely available media from artists who are not connected to us.
+
+# Knochtensplocht
+
+Video artists
+
+# Knochte
+
+Video artists
+
+# davidak
+
+website, hosting, technical infrastructure

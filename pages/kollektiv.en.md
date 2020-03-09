@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. nocomments: True
 -->
 
 Kaltefiste is an artist collective that aims to create a space for its members to live out their artistic freedom.
